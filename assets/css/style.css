@@ -30,6 +30,7 @@ footer {
 
 .rules {
     font-size: large;
+    padding: 20px;
 }
 
 /* Game */
@@ -40,11 +41,25 @@ footer {
 }
 
 .action {
-    padding: 20px 40px;
-    margin: 0 40px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30%;
 }
 
 /* Results */
+
+div > h3 {
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+}
 
 #results {
     text-align: center;
@@ -54,4 +69,10 @@ footer {
 .selected {
     font-size: x-large;
     font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    .action {
+        width: 40%;
+    }
 }
