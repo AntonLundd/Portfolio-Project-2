@@ -29,8 +29,8 @@ footer {
 }
 
 .rules {
-    font-size: large;
-    padding: 20px;
+    font-size: larger;
+    padding-top: 10px;
 }
 
 /* Game */
@@ -52,6 +52,10 @@ footer {
     width: 30%;
 }
 
+.action:hover {
+    background-color: #2980b9;
+}
+
 /* Results */
 
 div > h3 {
@@ -61,14 +65,31 @@ div > h3 {
     width: 100%;
 }
 
+#score-green {
+    color: green;
+}
+
+#score-red {
+    color: red;
+}
+
 #results {
     text-align: center;
     padding: 20px;
 }
 
-.selected {
+#player-selected {
     font-size: x-large;
     font-weight: 500;
+    margin: 30px 80px;
+    color: green;
+}
+
+#computer-selected {
+    font-size: x-large;
+    font-weight: 500;
+    margin: 30px 40px;
+    color: red;
 }
 
 @media screen and (max-width: 600px) {
