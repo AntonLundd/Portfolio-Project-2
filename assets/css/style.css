@@ -81,15 +81,20 @@ div > h3 {
 #player-selected {
     font-size: x-large;
     font-weight: 500;
-    margin: 30px 80px;
+    margin: 40px 80px;
     color: green;
 }
 
 #computer-selected {
     font-size: x-large;
     font-weight: 500;
-    margin: 30px 40px;
+    margin: 40px 40px;
     color: red;
+}
+
+#winner-display {
+    margin-top: 60px;
+    font-size: x-large;
 }
 
 @media screen and (max-width: 600px) {
