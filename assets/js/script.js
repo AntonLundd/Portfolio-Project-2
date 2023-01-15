@@ -22,6 +22,7 @@ function playRound(event) {
     let computerChoice = choices[Math.floor(Math.random() * 3)];
     computerSelected.innerHTML = 'Computer chose: ' + computerChoice;
 
+    // Compare choices and update winner display and score
     if (playerChoice === computerChoice) {
         winnerDisplay.innerHTML = "It's a tie!";
     } else if (playerChoice === 'Rock' && computerChoice === 'Paper') {

@@ -77,6 +77,22 @@ img {
     background-color: #2980b9;
 }
 
+.restart-container {
+    text-align: center;
+}
+
+#restart-button {
+    background-color: #249c34;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
 /* Results */
 
 div > h3 {
