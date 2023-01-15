@@ -9,7 +9,7 @@ const choices = ['Rock', 'Paper', 'Scissors'];
 let playerScore = 0;
 let computerScore = 0;
 
-// Add event listener to buttons
+// Add event listener to action buttons
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', playRound);
 }
@@ -50,4 +50,20 @@ function playRound(event) {
         playerScore++;
         scoreGreen.innerHTML = playerScore;
     }
+}
+
+const restartButton = document.getElementById('restart-button');
+
+// Restart button event listener
+restartButton.addEventListener('click', restartGame);
+
+// Restart game function
+function restartGame() {
+    playerScore = 0;
+    computerScore = 0;
+    scoreGreen.innerHTML = playerScore;
+    scoreRed.innerHTML = computerScore;
+    winnerDisplay.innerHTML = 'The winner is: ';
+    playerSelected.innerHTML = 'Player chose: ';
+    computerSelected.innerHTML = 'Computer chose: ';
 }

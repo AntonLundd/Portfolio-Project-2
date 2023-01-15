@@ -93,6 +93,10 @@ img {
 
 }
 
+#restart-button:hover {
+    background-color: #1b7026;
+}
+
 /* Results */
 
 div > h3 {
