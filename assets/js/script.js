@@ -10,7 +10,7 @@ let playerScore = 0;
 let computerScore = 0;
 
 // Add event listener to buttons
-for (let i=0; i < buttons.length; i++) {
+for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', playRound);
 }
 

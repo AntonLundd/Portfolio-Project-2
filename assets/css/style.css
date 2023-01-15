@@ -101,14 +101,14 @@ div > h3 {
 
 #player-selected {
     font-size: x-large;
-    font-weight: 500;
+    font-weight: 700;
     margin: 40px 80px;
     color: green;
 }
 
 #computer-selected {
     font-size: x-large;
-    font-weight: 500;
+    font-weight: 700;
     margin: 40px 40px;
     color: red;
 }
@@ -123,5 +123,9 @@ div > h3 {
 @media screen and (max-width: 600px) {
     .action {
         width: 40%;
+    }
+
+    img {
+        width: 50%;
     }
 }
