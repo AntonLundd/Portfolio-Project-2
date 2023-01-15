@@ -2,11 +2,11 @@
 
 html {
     position: relative;
+    margin: 0;
 }
 
 body {
     font-family: 'Lato', sans-serif;
-    margin: 0;
 }
 
 /* Header */
@@ -25,7 +25,6 @@ footer {
     font-size: larger;
     width: 100%;
     bottom: 0;
-    left: 0;
 }
 
 h3 > a {
@@ -63,7 +62,7 @@ img {
 
 .action {
     background-color: #3498db;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     margin: 10px;
@@ -83,7 +82,7 @@ img {
 
 #restart-button {
     background-color: #249c34;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 20px 40px;
     margin: 40px;
     text-transform: uppercase;
@@ -139,6 +138,16 @@ div > h3 {
 }
 
 /* Media queries */
+
+@media screen and (max-width: 800px) {
+    #computer-selected {
+        display: inline-block;
+    }
+
+    #player-selected {
+        display: inline-block;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .action {
