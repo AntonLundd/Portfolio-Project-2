@@ -17,19 +17,16 @@ h1 {
     font-weight: 700;
 }
 
-/* Footer */
+/* Rules */
 
-footer {
+.rules {
+    font-size: larger;
+    padding-top: 10px;
     text-align: center;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 100px;
-    padding-top: 10px;
-}
-
-.rules {
-    font-size: larger;
     padding-top: 10px;
 }
 
@@ -96,6 +93,8 @@ div > h3 {
     margin-top: 60px;
     font-size: x-large;
 }
+
+/* Media queries */
 
 @media screen and (max-width: 600px) {
     .action {

@@ -14,27 +14,35 @@
     </header>
 
     <section>
+        <!-- Buttons -->
         <div id="player-choice">
             <button aria-label="Rock" class="action rock-button" data-type="0">Rock</button>
             <button aria-label="Paper" class="action paper-button" data-type="1">Paper</button>
             <button aria-label="Scissors" class="action scissors-button" data-type="2">Scissors</button>
         </div>
+
+        <!-- Shows what the player and computer and who the winner is -->
         <div id="chosen">
             <span id="player-selected">Player chose: </span>
             <span id="computer-selected">Computer chose: </span>
             <h3 id="winner-display">The winner is: </h3>
             <p></p>
         </div>
+
+        <!-- Shows how many points the player and computer has -->
         <div>
             <h3>Player score: <span id="score-green">0</span></h3>
             <h3>Computer score: <span id="score-red">0</span></h3>
         </div>
     </section>
-
-    <footer>
+    
+    <!-- Rules for the game -->
+    <div class="rules">
         <h2>Rules</h2>
-        <p class="rules">Rock beats Scissors, Scissors beats Paper and Paper beats Rock</p>
-    </footer>
+        <p>Rock beats Scissors, Scissors beats Paper and Paper beats Rock</p>
+    </div>
+
+    <img>
 
     <script src="assets/js/script.js"></script>
 </body>
