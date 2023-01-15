@@ -37,7 +37,7 @@ Users of this website will learn the game Rock, Paper, Scissors and can use it i
 
 ## Testing
 ---
-- I have tested the game on Chrome.
+- I have tested the game on Chrome and Safari.
 
 - I confirmed that the results of the game are always correct.
 
@@ -67,7 +67,7 @@ Users of this website will learn the game Rock, Paper, Scissors and can use it i
 ### **Bugs**
 
 ### Solved Bugs
-- When testing the game after writing the JavaScript I had a bug were the computer got a point when the player chose Rock and the computer chose scissors. So it counted the players win towards the computers score.
+- When testing the game after writing the JavaScript I had a bug were the computer got a point when the player chose Rock and the computer chose Scissors. So it counted the players win towards the computers score.
 - I found that in the `if` statement I had written `scoreRed.innerHTML` instead of `scoreGreen.innerHTML`.
 - The solution was to change the wrong `scoreRed.innerHTML` to `scoreGreen.innerHTML`.
 
