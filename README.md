@@ -1,5 +1,4 @@
 # Rock, Paper, Scissors
-
 This website allows you to play the classic game of rock, paper, scissors against the computer. The rules of the game are simple: rock beats scissors, scissors beat paper, and paper beats rock.<br>When you load the website you get to choose between rock, paper or scissors. The computers choice is random every time.<br>There is a counter which keeps track of how many times you, the player, have won and how many times the computer have won. 
 
 Users of this website will learn the game Rock, Paper, Scissors and can use it if they need an external decision maker. This web based game will be targeted towards all age groups, everyone can play it and have fun.
@@ -38,7 +37,6 @@ Users of this website will learn the game Rock, Paper, Scissors and can use it i
 
 ## Testing
 ---
-
 - I have tested the game on Chrome.
 
 - I confirmed that the results of the game are always correct.
@@ -52,7 +50,6 @@ Users of this website will learn the game Rock, Paper, Scissors and can use it i
 ![Lighthouse test.](assets/images/project-2-lighthouse.png)
 
 ### **Validator Testing**
-
 - HTML
     - The website returned no errors when testing using the official W3C validator
 
@@ -71,11 +68,20 @@ Users of this website will learn the game Rock, Paper, Scissors and can use it i
 
 ### Solved Bugs
 - When testing the game after writing the JavaScript I had a bug were the computer got a point when the player chose Rock and the computer chose scissors. So it counted the players win towards the computers score.
-- I found that in the if statement I had written `scoreRed.innerHTML` instead of `scoreGreen.innerHTML`.
+- I found that in the `if` statement I had written `scoreRed.innerHTML` instead of `scoreGreen.innerHTML`.
 - The solution was to change the wrong `scoreRed.innerHTML` to `scoreGreen.innerHTML`.
 
 ### Unfixed Bugs
-- I am having trouble with getting my footer to stay at the bottom of the page. Hopefully something I can fix in the future.
+- I am having trouble with getting my footer to stay at the bottom of the page. Hopefully that is something I can fix in the future.
+
+## **Deployment**
+- The website was deployed to GitHub Pages, using the following steps.
+    - In the GitHub Repository, click on the settings tab.
+    - Find the Pages link in the menu on the left and click on it.
+    - Under the Branch part there is a drop-down menu. Select Main.
+    - Click the Save button to the right of the drop-down menu.
+    - Wait a few minutes and refresh the page to find the live link to your website.
+A link to the live website can be found here - [Rock, Paper, Scissors](https://antonlundd.github.io/Portfolio-Project-2/)
 
 ## **Credits**
 
