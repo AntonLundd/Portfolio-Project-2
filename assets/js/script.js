@@ -28,5 +28,25 @@ function playRound(event) {
         winnerDisplay.innerHTML = 'The winner is: Computer!';
         computerScore++;
         scoreRed.innerHTML = computerScore;
+    } else if (playerChoice === 'Rock' && computerChoice === 'Scissors') {
+        winnerDisplay.innerHTML = 'The winner is: Player!';
+        playerScore++;
+        scoreGreen.innerHTML = playerScore;
+    } else if (playerChoice === 'Paper' && computerChoice === 'Rock') {
+        winnerDisplay.innerHTML = 'The winner is: Player!';
+        playerScore++;
+        scoreGreen.innerHTML = playerScore;
+    } else if (playerChoice === 'Paper' && computerChoice === 'Scissors') {
+        winnerDisplay.innerHTML = 'The winner is: Computer!';
+        computerScore++;
+        scoreRed.innerHTML = computerScore;
+    } else if (playerChoice === 'Scissors' && computerChoice === 'Rock') {
+        winnerDisplay.innerHTML = 'The winner is: Computer!';
+        computerScore++;
+        scoreRed.innerHTML = computerScore;
+    } else if (playerChoice === 'Scissors' && computerChoice === 'Paper') {
+        winnerDisplay.innerHTML = 'The winner is: Player!';
+        playerScore++;
+        scoreGreen.innerHTML = playerScore;
     }
 }
